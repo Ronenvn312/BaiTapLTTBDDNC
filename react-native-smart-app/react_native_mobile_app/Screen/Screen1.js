@@ -32,7 +32,7 @@ export default function Screen1({ navigation }) {
             </View>
             <View style={{padding: 10,flexDirection: 'row', justifyContent: 'center', paddingBottom: 60 }}>
                 <TouchableOpacity style={{flex:1, padding:10,justifyContent: 'center', flexDirection: 'row', paddingLeft: 10, borderWidth: 0.8, borderRadius: 10 }}
-                    onPress={() => navigation.navigate('Home')} activeOpacity={0.5}>
+                    onPress={() => navigation.navigate('Option')} activeOpacity={0.5}>
                     <Text>4 MÀU - CHỌN MÀU</Text>
                     <Image
                         style={{ marginLeft: 10 }}
